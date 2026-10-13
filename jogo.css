@@ -1,0 +1,75 @@
+body 
+   {background-color: #f8f9fa;color: #333;font-family:'cairo', sans-serif;
+margin:0;direction:rtl}
+html
+   {font-size:20px;scroll-behavior: smooth;}
+.navbar
+   {display: flex;justify-content: space-between;align-items: center;background-
+    color: #ffffff;padding: 15px 50px;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    flex-direction: row-reverse;}
+
+ .navbar .logo
+    {font-size: 24px;font-weight: bold;color: #000;font-style:italic;}
+.navbar ul 
+    {list-style: none;display: flex;margin: 0;padding: 0;gap:30px;}
+    .navbar ul li a
+    {text-decoration: none;color: #555;font-size: 16px;transition:0.3s;}
+    .navbar ul li a.active
+    {color:black;font-weight: bold;position: relative;}
+    .navbar ul li a.active::after
+    {content: "";position: absolute;bottom: -5px;right: 0;width: 100%;height: 2px;
+        background-color: black;}
+.hero
+    {text-align:right;padding: 40px 20px;}
+.hero img
+    {width: 140px;height: 140px;border-radius: 50%;box-shadow: 0 4px 10px 
+        rgba(0, 0, 0, 0.1);object-fit: cover;display: block;margin-right: auto;
+        margin-left: 0;border: 2px solid black;margin-bottom: 40px;}
+.hero h1
+    {font-size: 28px;margin-top: -120px ;margin-bottom:5px;color:black;}
+    .hero p
+    {font-size: 16px;color:black;margin-top: 5px;}
+    .profile-card
+    {background-color: #d2c0f4;border-radius: 20px;padding: 30px 20px;
+        border: 2px solid black; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        max-width: 100%;margin: 40px auto; }
+        .hobbies{
+            display: flex;flex-wrap: wrap;justify-content: center;gap: 30px;margin
+            -top: 20px;}
+        
+        .hobby 
+        { display: flex; border-radius: 20px;padding:10px 20px;font-weight: bold;;border: 2px solid black;
+            width: 200px;  text-align:center;font-size: 16px;gap: 8px;
+            align-items: center;justify-content: center;}
+
+        .hobby.read{
+            background-color: #f8d7da;color: #721c24;
+        }
+        .hobby.code{
+            background-color: #d1ecf1;color: #0c5460;
+        }
+        .hobby.design{
+            background-color: #fef5e6;color: #856404;
+        }
+        .hobby.sports{
+            background-color: #d4edda;color: #155724;
+        }
+        .contact-list{
+            list-style: none;padding: 0;margin:20px;display: flex;flex-direction: column;
+            gap: 5px 0 0 0;}
+            .contact-list li {
+                display: flex;align-items: center;
+                gap: 12px;font-size: 20px ;color: #333;
+            margin-bottom: 10px;justify-content: flex-start;align-items: center;}
+            .contact-list li i{
+                font-size: 20px;color: #2c255b;
+                text-align: center;width: 24px;height: 30px;display: flex;align-items: center;
+            }
+#about h2 i{color:#3b82f6}
+#hobbies h2 i{color:#eab308}
+#contact h2 i{color:#b96710}
+    footer{
+        background-color: #1e293b;color: #ffffff;
+        text-align: center;padding: 15px 0;
+        margin-top: 40px;font-size: 14px;}
+        footer i{color:red ;margin-right: 5px;}
